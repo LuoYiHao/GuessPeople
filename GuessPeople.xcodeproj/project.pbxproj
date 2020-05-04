@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43006E152460027E00CF2154 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43006E142460027E00CF2154 /* AppDelegate.m */; };
+		43006E182460027E00CF2154 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43006E172460027E00CF2154 /* SceneDelegate.m */; };
+		43006E1B2460027E00CF2154 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43006E1A2460027E00CF2154 /* ViewController.m */; };
+		43006E1E2460027E00CF2154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43006E1C2460027E00CF2154 /* Main.storyboard */; };
+		43006E202460027F00CF2154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43006E1F2460027F00CF2154 /* Assets.xcassets */; };
+		43006E232460027F00CF2154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43006E212460027F00CF2154 /* LaunchScreen.storyboard */; };
+		43006E262460027F00CF2154 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43006E252460027F00CF2154 /* main.m */; };
+		43006E302460027F00CF2154 /* GuessPeopleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43006E2F2460027F00CF2154 /* GuessPeopleTests.m */; };
+		43006E3B2460027F00CF2154 /* GuessPeopleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43006E3A2460027F00CF2154 /* GuessPeopleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43006E2C2460027F00CF2154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43006E082460027E00CF2154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43006E0F2460027E00CF2154;
+			remoteInfo = GuessPeople;
+		};
+		43006E372460027F00CF2154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43006E082460027E00CF2154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43006E0F2460027E00CF2154;
+			remoteInfo = GuessPeople;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43006E102460027E00CF2154 /* GuessPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43006E132460027E00CF2154 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43006E142460027E00CF2154 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43006E162460027E00CF2154 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		43006E172460027E00CF2154 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		43006E192460027E00CF2154 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43006E1A2460027E00CF2154 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43006E1D2460027E00CF2154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43006E1F2460027F00CF2154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43006E222460027F00CF2154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43006E242460027F00CF2154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43006E252460027F00CF2154 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43006E2B2460027F00CF2154 /* GuessPeopleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessPeopleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43006E2F2460027F00CF2154 /* GuessPeopleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessPeopleTests.m; sourceTree = "<group>"; };
+		43006E312460027F00CF2154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43006E362460027F00CF2154 /* GuessPeopleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessPeopleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43006E3A2460027F00CF2154 /* GuessPeopleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessPeopleUITests.m; sourceTree = "<group>"; };
+		43006E3C2460027F00CF2154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43006E0D2460027E00CF2154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43006E282460027F00CF2154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43006E332460027F00CF2154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43006E072460027E00CF2154 = {
+			isa = PBXGroup;
+			children = (
+				43006E122460027E00CF2154 /* GuessPeople */,
+				43006E2E2460027F00CF2154 /* GuessPeopleTests */,
+				43006E392460027F00CF2154 /* GuessPeopleUITests */,
+				43006E112460027E00CF2154 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43006E112460027E00CF2154 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43006E102460027E00CF2154 /* GuessPeople.app */,
+				43006E2B2460027F00CF2154 /* GuessPeopleTests.xctest */,
+				43006E362460027F00CF2154 /* GuessPeopleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43006E122460027E00CF2154 /* GuessPeople */ = {
+			isa = PBXGroup;
+			children = (
+				43006E132460027E00CF2154 /* AppDelegate.h */,
+				43006E142460027E00CF2154 /* AppDelegate.m */,
+				43006E162460027E00CF2154 /* SceneDelegate.h */,
+				43006E172460027E00CF2154 /* SceneDelegate.m */,
+				43006E192460027E00CF2154 /* ViewController.h */,
+				43006E1A2460027E00CF2154 /* ViewController.m */,
+				43006E1C2460027E00CF2154 /* Main.storyboard */,
+				43006E1F2460027F00CF2154 /* Assets.xcassets */,
+				43006E212460027F00CF2154 /* LaunchScreen.storyboard */,
+				43006E242460027F00CF2154 /* Info.plist */,
+				43006E252460027F00CF2154 /* main.m */,
+			);
+			path = GuessPeople;
+			sourceTree = "<group>";
+		};
+		43006E2E2460027F00CF2154 /* GuessPeopleTests */ = {
+			isa = PBXGroup;
+			children = (
+				43006E2F2460027F00CF2154 /* GuessPeopleTests.m */,
+				43006E312460027F00CF2154 /* Info.plist */,
+			);
+			path = GuessPeopleTests;
+			sourceTree = "<group>";
+		};
+		43006E392460027F00CF2154 /* GuessPeopleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43006E3A2460027F00CF2154 /* GuessPeopleUITests.m */,
+				43006E3C2460027F00CF2154 /* Info.plist */,
+			);
+			path = GuessPeopleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43006E0F2460027E00CF2154 /* GuessPeople */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43006E3F2460027F00CF2154 /* Build configuration list for PBXNativeTarget "GuessPeople" */;
+			buildPhases = (
+				43006E0C2460027E00CF2154 /* Sources */,
+				43006E0D2460027E00CF2154 /* Frameworks */,
+				43006E0E2460027E00CF2154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessPeople;
+			productName = GuessPeople;
+			productReference = 43006E102460027E00CF2154 /* GuessPeople.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43006E2A2460027F00CF2154 /* GuessPeopleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43006E422460027F00CF2154 /* Build configuration list for PBXNativeTarget "GuessPeopleTests" */;
+			buildPhases = (
+				43006E272460027F00CF2154 /* Sources */,
+				43006E282460027F00CF2154 /* Frameworks */,
+				43006E292460027F00CF2154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43006E2D2460027F00CF2154 /* PBXTargetDependency */,
+			);
+			name = GuessPeopleTests;
+			productName = GuessPeopleTests;
+			productReference = 43006E2B2460027F00CF2154 /* GuessPeopleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43006E352460027F00CF2154 /* GuessPeopleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43006E452460027F00CF2154 /* Build configuration list for PBXNativeTarget "GuessPeopleUITests" */;
+			buildPhases = (
+				43006E322460027F00CF2154 /* Sources */,
+				43006E332460027F00CF2154 /* Frameworks */,
+				43006E342460027F00CF2154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43006E382460027F00CF2154 /* PBXTargetDependency */,
+			);
+			name = GuessPeopleUITests;
+			productName = GuessPeopleUITests;
+			productReference = 43006E362460027F00CF2154 /* GuessPeopleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43006E082460027E00CF2154 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "罗毅豪";
+				TargetAttributes = {
+					43006E0F2460027E00CF2154 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					43006E2A2460027F00CF2154 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 43006E0F2460027E00CF2154;
+					};
+					43006E352460027F00CF2154 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 43006E0F2460027E00CF2154;
+					};
+				};
+			};
+			buildConfigurationList = 43006E0B2460027E00CF2154 /* Build configuration list for PBXProject "GuessPeople" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43006E072460027E00CF2154;
+			productRefGroup = 43006E112460027E00CF2154 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43006E0F2460027E00CF2154 /* GuessPeople */,
+				43006E2A2460027F00CF2154 /* GuessPeopleTests */,
+				43006E352460027F00CF2154 /* GuessPeopleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43006E0E2460027E00CF2154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43006E232460027F00CF2154 /* LaunchScreen.storyboard in Resources */,
+				43006E202460027F00CF2154 /* Assets.xcassets in Resources */,
+				43006E1E2460027E00CF2154 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43006E292460027F00CF2154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43006E342460027F00CF2154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43006E0C2460027E00CF2154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43006E1B2460027E00CF2154 /* ViewController.m in Sources */,
+				43006E152460027E00CF2154 /* AppDelegate.m in Sources */,
+				43006E262460027F00CF2154 /* main.m in Sources */,
+				43006E182460027E00CF2154 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43006E272460027F00CF2154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43006E302460027F00CF2154 /* GuessPeopleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43006E322460027F00CF2154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43006E3B2460027F00CF2154 /* GuessPeopleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43006E2D2460027F00CF2154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43006E0F2460027E00CF2154 /* GuessPeople */;
+			targetProxy = 43006E2C2460027F00CF2154 /* PBXContainerItemProxy */;
+		};
+		43006E382460027F00CF2154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43006E0F2460027E00CF2154 /* GuessPeople */;
+			targetProxy = 43006E372460027F00CF2154 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43006E1C2460027E00CF2154 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43006E1D2460027E00CF2154 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43006E212460027F00CF2154 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43006E222460027F00CF2154 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43006E3D2460027F00CF2154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43006E3E2460027F00CF2154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43006E402460027F00CF2154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQZZT7AH8W;
+				INFOPLIST_FILE = GuessPeople/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.GuessPeople";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43006E412460027F00CF2154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQZZT7AH8W;
+				INFOPLIST_FILE = GuessPeople/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.GuessPeople";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43006E432460027F00CF2154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQZZT7AH8W;
+				INFOPLIST_FILE = GuessPeopleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.GuessPeopleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessPeople.app/GuessPeople";
+			};
+			name = Debug;
+		};
+		43006E442460027F00CF2154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQZZT7AH8W;
+				INFOPLIST_FILE = GuessPeopleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.GuessPeopleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessPeople.app/GuessPeople";
+			};
+			name = Release;
+		};
+		43006E462460027F00CF2154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQZZT7AH8W;
+				INFOPLIST_FILE = GuessPeopleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.GuessPeopleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuessPeople;
+			};
+			name = Debug;
+		};
+		43006E472460027F00CF2154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQZZT7AH8W;
+				INFOPLIST_FILE = GuessPeopleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.GuessPeopleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuessPeople;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43006E0B2460027E00CF2154 /* Build configuration list for PBXProject "GuessPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43006E3D2460027F00CF2154 /* Debug */,
+				43006E3E2460027F00CF2154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43006E3F2460027F00CF2154 /* Build configuration list for PBXNativeTarget "GuessPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43006E402460027F00CF2154 /* Debug */,
+				43006E412460027F00CF2154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43006E422460027F00CF2154 /* Build configuration list for PBXNativeTarget "GuessPeopleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43006E432460027F00CF2154 /* Debug */,
+				43006E442460027F00CF2154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43006E452460027F00CF2154 /* Build configuration list for PBXNativeTarget "GuessPeopleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43006E462460027F00CF2154 /* Debug */,
+				43006E472460027F00CF2154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43006E082460027E00CF2154 /* Project object */;
+}
