@@ -16,6 +16,9 @@
 		43006E262460027F00CF2154 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43006E252460027F00CF2154 /* main.m */; };
 		43006E302460027F00CF2154 /* GuessPeopleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43006E2F2460027F00CF2154 /* GuessPeopleTests.m */; };
 		43006E3B2460027F00CF2154 /* GuessPeopleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43006E3A2460027F00CF2154 /* GuessPeopleUITests.m */; };
+		43006E5624600D5800CF2154 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 43006E5524600D5800CF2154 /* People.m */; };
+		43006E592460175500CF2154 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 43006E582460175500CF2154 /* Game.m */; };
+		43006E5F24614ED600CF2154 /* GameoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43006E5E24614ED600CF2154 /* GameoverViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		43006E102460027E00CF2154 /* GuessPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43006E102460027E00CF2154 /* 看图猜人物.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "看图猜人物.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43006E132460027E00CF2154 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		43006E142460027E00CF2154 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		43006E162460027E00CF2154 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +57,12 @@
 		43006E362460027F00CF2154 /* GuessPeopleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessPeopleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43006E3A2460027F00CF2154 /* GuessPeopleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessPeopleUITests.m; sourceTree = "<group>"; };
 		43006E3C2460027F00CF2154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43006E5424600D5800CF2154 /* People.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		43006E5524600D5800CF2154 /* People.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		43006E572460175500CF2154 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		43006E582460175500CF2154 /* Game.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		43006E5D24614ED600CF2154 /* GameoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameoverViewController.h; sourceTree = "<group>"; };
+		43006E5E24614ED600CF2154 /* GameoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameoverViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +103,7 @@
 		43006E112460027E00CF2154 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43006E102460027E00CF2154 /* GuessPeople.app */,
+				43006E102460027E00CF2154 /* 看图猜人物.app */,
 				43006E2B2460027F00CF2154 /* GuessPeopleTests.xctest */,
 				43006E362460027F00CF2154 /* GuessPeopleUITests.xctest */,
 			);
@@ -104,6 +113,7 @@
 		43006E122460027E00CF2154 /* GuessPeople */ = {
 			isa = PBXGroup;
 			children = (
+				43006E4B24600A8300CF2154 /* Model */,
 				43006E132460027E00CF2154 /* AppDelegate.h */,
 				43006E142460027E00CF2154 /* AppDelegate.m */,
 				43006E162460027E00CF2154 /* SceneDelegate.h */,
@@ -115,6 +125,8 @@
 				43006E212460027F00CF2154 /* LaunchScreen.storyboard */,
 				43006E242460027F00CF2154 /* Info.plist */,
 				43006E252460027F00CF2154 /* main.m */,
+				43006E5D24614ED600CF2154 /* GameoverViewController.h */,
+				43006E5E24614ED600CF2154 /* GameoverViewController.m */,
 			);
 			path = GuessPeople;
 			sourceTree = "<group>";
@@ -137,6 +149,17 @@
 			path = GuessPeopleUITests;
 			sourceTree = "<group>";
 		};
+		43006E4B24600A8300CF2154 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43006E5424600D5800CF2154 /* People.h */,
+				43006E5524600D5800CF2154 /* People.m */,
+				43006E572460175500CF2154 /* Game.h */,
+				43006E582460175500CF2154 /* Game.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,7 +177,7 @@
 			);
 			name = GuessPeople;
 			productName = GuessPeople;
-			productReference = 43006E102460027E00CF2154 /* GuessPeople.app */;
+			productReference = 43006E102460027E00CF2154 /* 看图猜人物.app */;
 			productType = "com.apple.product-type.application";
 		};
 		43006E2A2460027F00CF2154 /* GuessPeopleTests */ = {
@@ -267,8 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43006E5F24614ED600CF2154 /* GameoverViewController.m in Sources */,
 				43006E1B2460027E00CF2154 /* ViewController.m in Sources */,
 				43006E152460027E00CF2154 /* AppDelegate.m in Sources */,
+				43006E5624600D5800CF2154 /* People.m in Sources */,
+				43006E592460175500CF2154 /* Game.m in Sources */,
 				43006E262460027F00CF2154 /* main.m in Sources */,
 				43006E182460027E00CF2154 /* SceneDelegate.m in Sources */,
 			);
@@ -439,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LQZZT7AH8W;
 				INFOPLIST_FILE = GuessPeople/Info.plist;
@@ -447,7 +474,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "---.GuessPeople";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "看图猜人物";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -456,6 +483,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LQZZT7AH8W;
 				INFOPLIST_FILE = GuessPeople/Info.plist;
@@ -464,7 +492,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "---.GuessPeople";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "看图猜人物";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
